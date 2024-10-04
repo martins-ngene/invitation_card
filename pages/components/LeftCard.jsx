@@ -33,7 +33,6 @@ const LeftCard = () => {
         <Image
           src={Left}
           alt="Flower"
-          layout="fixed"
           className="w-[188px] md:w-[200px] absolute left-[0%] bottom-[0%]"
         />
 
