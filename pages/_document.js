@@ -6,7 +6,9 @@ export default function Document() {
       <Head>
         <meta property="og:title" content="Yomanuel 2024" />
         <meta property="og:description" content="Yoma Weds Emmanuel" />
-        <meta property="og:site_name" content="yomanuel" />
+        <meta property="og:site_name" content="https://yomanuel.com" />
+        <link rel="icon" href="/favicon.ico" />
+        <meta property="og:image" content="/opengraph-image.png" />
       </Head>
       <body className="antialiased">
         <Main />
