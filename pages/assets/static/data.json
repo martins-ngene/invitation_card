@@ -1,0 +1,33 @@
+{
+  "couples_name": "YOMA WEDS ULOHO",
+  "save_the_date": "Save the Date",
+  "date": {
+    "day": "SAT",
+    "month": "NOV",
+    "day_numeric": "30",
+    "year": "2024",
+    "time": "AT 11:00 AM"
+  },
+  "invitation_intro": {
+    "together": "TOGETHER",
+    "families": "WITH THEIR FAMILIES"
+  },
+  "couple": {
+    "bride_family_name": "Yoma",
+    "and": "&",
+    "bridegroom_family_name": "Uloho"
+  },
+  "invitation": {
+    "invite": "WE INVITE YOU TO BE A GUEST AT OUR",
+    "ceremony": "WEDDING CEREMONEY"
+  },
+  "wedding_ceremony_venue": {
+    "branch": "Kingdom Hall of Jehovah's Witnesses,",
+    "address": "No.11 Kingdom Hall Street, Okoribi, Efurun Delta State."
+  },
+  "reception": "RECEPTION",
+  "reception_venue": {
+    "address": "@NO.2 Surveyors close, opp. Rur Filling Station,",
+    "bustop": "Commissioner Road, by DSC Roundabout Effurun."
+  }
+}

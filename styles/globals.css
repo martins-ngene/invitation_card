@@ -2,26 +2,114 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* Sacramento */
+@font-face {
+  font-family: "Sacramento-Regular"; /*Can be any text*/
+  src: local("Sacramento-Regular"),
+    url("../pages/assets/fonts/sacramento/Sacramento-Regular.ttf")
+      format("truetype");
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* Khiara Script */
+@font-face {
+  font-family: "Khiara-Script-Regular"; /*Can be any text*/
+  src: local("©-2020-NUGS-Project-Khiara-Script"),
+    url("../pages/assets/fonts/khiara_script/©-2020-NUGS-Project-Khiara-Script.ttf")
+      format("truetype");
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+/* Nohemi */
+@font-face {
+  font-family: "Nohemi-Medium"; /*Can be any text*/
+  src: local("Nohemi-Medium-BF6438cc5883899"),
+    url("../pages/assets/fonts/nohemi/Nohemi-Medium-BF6438cc5883899.ttf")
+      format("truetype");
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+@font-face {
+  font-family: "Nohemi-Regular"; /*Can be any text*/
+  src: local("Nohemi-Regular-BF6438cc4d0e493"),
+    url("../pages/assets/fonts/nohemi/Nohemi-Regular-BF6438cc4d0e493.ttf")
+      format("truetype");
+}
+
+/* Satoshi */
+@font-face {
+  font-family: "Satoshi-Medium"; /*Can be any text*/
+  src: local("Satoshi-Medium.otf"),
+    url("../pages/assets/fonts/satoshi/Satoshi-Medium.otf") format("otf");
+}
+
+.save-date {
+  font-size: 36px;
+  font-family: Sacramento-Regular;
+  line-height: 72px;
+  color: #72643e;
+}
+
+.couples-name {
+  font-family: Sacramento-Regular;
+  color: #72643e;
+}
+
+.and {
+  font-size: 36px;
+  font-family: Khiara-Script-Regular;
+  line-height: 12px;
+  color: #72643e;
+}
+
+.couples-wedding {
+  font-size: 12px;
+  line-height: 18px;
+  font-family: Nohemi-Medium;
+  color: #e5b873;
+}
+
+.together {
+  font-size: 12px;
+  line-height: 18px;
+  font-family: Nohemi-Regular;
+  color: #72643e;
+}
+
+.reception {
+  font-size: 12px;
+  line-height: 18px;
+  font-family: Nohemi-Medium;
+  color: #e5b873;
+}
+
+.venue {
+  font-size: 12px;
+  line-height: 18px;
+  font-family: Satoshi-Medium;
+  color: #4d4c48;
+}
+
+.day,
+.time {
+  font-size: 12px;
+  font-family: Nohemi-Regular;
+  line-height: 24px;
+  color: #72643e;
+}
+
+.month,
+.year {
+  font-size: 10px;
+  font-family: Nohemi-Medium;
+  line-height: 18px;
+  color: #72643e;
+}
+
+.day_numeric {
+  font-size: 18px;
+  font-family: Nohemi-Medium;
+  line-height: 36px;
+  color: #72643e;
+}
+
+.card_styles {
+  filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.25));
 }
