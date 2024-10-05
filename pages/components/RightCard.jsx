@@ -29,17 +29,17 @@ export default function RightCard() {
         className="absolute bottom-[0%] right-[0%]"
       />
 
-      <div className="together mt-5 md:mt-9">
+      <div className="together mt-[3rem] md:mt-14 w-[75%]">
         <h2>{data.invitation_intro.together}</h2>
         <h2>{data.invitation_intro.families}</h2>
       </div>
 
       <div className="text-center pt-[0.5rem] pb-2">
-        <h3 className="couples-name text-[3.5rem] leading-[4.375rem]">
+        <h3 className="couples-name text-[2.5rem] md:text-[3.5rem] leading-[2.75rem] md:leading-[4.375rem]">
           {data.couple.bride_family_name}
         </h3>
         <p className="and">{data.couple.and}</p>
-        <h3 className="couples-name text-[3.5rem] leading-[4.375rem]">
+        <h3 className="couples-name text-[2.5rem] md:text-[3.5rem] leading-[2.75rem] md:leading-[4.375rem]">
           {data.couple.bridegroom_family_name}
         </h3>
       </div>
@@ -49,7 +49,7 @@ export default function RightCard() {
         <p>{data.invitation.ceremony}</p>
       </div>
 
-      <div className="w-full flex items-center justify-center my-[0.2rem] md:my-[0.5rem]">
+      <div className="w-full flex items-center justify-center md:my-[0.5rem]">
         <Date {...data.date} />
       </div>
       <div className="w-[80%] flex flex-col items-center">
