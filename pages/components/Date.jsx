@@ -1,3 +1,5 @@
+import propTypes from "prop-types";
+
 const Date = ({ day, month, day_numeric, year, time }) => {
   return (
     <div className="w-[70%] lg:w-[45%] h-[100px] flex">
@@ -22,6 +24,14 @@ const Date = ({ day, month, day_numeric, year, time }) => {
       </div>
     </div>
   );
+};
+
+Date.propTypes = {
+  day: propTypes.string.isRequired,
+  month: propTypes.string.isRequired,
+  day_numeric: propTypes.string.isRequired,
+  year: propTypes.string.isRequired,
+  time: propTypes.string.isRequired,
 };
 
 export default Date;
