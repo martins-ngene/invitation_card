@@ -2,7 +2,7 @@ import propTypes from "prop-types";
 
 const Date = ({ day, month, day_numeric, year, time }) => {
   return (
-    <div className="w-[70%] lg:w-[45%] h-[100px] flex">
+    <div className="w-[70%] lg:w-[45%] h-[60px] md:h-[100px] flex">
       <div className="w-[35%] h-full flex flex-col items-center justify-center">
         <div className="flex items-center justify-center py-[1.125rem] w-full h-1/3 border-y-[2.5px] border-[#E5B873] day">
           {day}
